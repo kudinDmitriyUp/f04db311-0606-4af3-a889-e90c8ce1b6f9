@@ -269,7 +269,6 @@ export default function LandingPage() {
       <div id="footer" data-section="footer">
         <FooterBaseReveal
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1764015752497-99ut2bvs.jpg"
-          logoAlt="Sanctuary Resort Logo"
           logoWidth={40}
           logoHeight={40}
           copyrightText="© 2025 Sanctuary Resort Thailand. All rights reserved."
