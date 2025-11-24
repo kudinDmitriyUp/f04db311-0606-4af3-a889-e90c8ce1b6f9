@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -153,8 +153,6 @@ export default function LandingPage() {
           ]}
           ariaLabel="Featured rooms and suites"
           containerClassName="max-w-7xl mx-auto px-4 py-20"
-          titleClassName="text-4xl md:text-5xl font-bold text-center mb-4"
-          descriptionClassName="text-lg text-center mb-16 max-w-2xl mx-auto"
         />
       </div>
 
@@ -202,8 +200,6 @@ export default function LandingPage() {
           ]}
           ariaLabel="Guest testimonials and reviews"
           containerClassName="max-w-7xl mx-auto px-4 py-20"
-          titleClassName="text-4xl md:text-5xl font-bold text-center mb-4"
-          descriptionClassName="text-lg text-center mb-16 max-w-2xl mx-auto"
           cardClassName="rounded-none border border-accent"
           gridClassName="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         />
@@ -250,8 +246,6 @@ export default function LandingPage() {
           ]}
           ariaLabel="Frequently asked questions"
           containerClassName="max-w-5xl mx-auto px-4 py-20"
-          titleClassName="text-4xl md:text-5xl font-bold text-center mb-4"
-          descriptionClassName="text-lg text-center mb-12 max-w-2xl mx-auto"
         />
       </div>
 
